@@ -1,0 +1,5 @@
+/* tg-cli Textual CSS */
+
+Screen {
+    background: $surface;
+}

@@ -1,0 +1,20 @@
+[project]
+name = "tg-cli"
+version = "0.1.0"
+description = "Full-featured Telegram client for the terminal"
+requires-python = ">=3.11"
+dependencies = [
+    "telethon>=1.36",
+    "textual>=1.0",
+    "python-dotenv>=1.0",
+    "tomli-w>=1.0",
+    "cryptg>=0.4",
+    "aiofiles>=24.0",
+]
+
+[project.scripts]
+tg-cli = "tg_cli.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
